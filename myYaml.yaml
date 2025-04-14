@@ -5,12 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 2|🇭🇰3 |  5.9MB/s, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /rbqqvws, ws-headers: {Host: hknbyivfffj.site}, udp: true}
   - {name: 2|🇭🇰4 |  3.1MB/s, server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net, port: 15229, type: vmess, uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2|🇺🇸24 |  4.6MB/s, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 2|🇺🇸25 |  4.4MB/s, server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net, port: 5229, type: vmess, uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2|🇭🇰18 |  5.8MB/s, server: 104.21.6.201, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /rbqqvws, ws-headers: {Host: hknbyivfffj.site}, udp: true}
-  - {name: 2|🇩🇪14 |  5.5MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 2|🌀12-ID |  1.3MB/s, server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com, port: 17234, type: vmess, uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 12|🇭🇰 香港|@ripaojiedian, server: hk02.x.quickcht3.club, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b, udp: true}
   - {name: 12|🇭🇰 香港2|@ripaojiedian, server: 129.226.58.228, port: 3306, type: ss, cipher: aes-256-cfb, password: 1601e3c29c8db1a88942cf0cad731bf3, udp: true}
@@ -25,10 +22,6 @@ proxies:
   - {name: 0|🌀6-ID |  1.6MB/s, server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com, port: 17234, type: vmess, uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 0|🇦🇺1 |  1.6MB/s, server: cn17.mynode.me, port: 8625, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20176-L1juani984.download.microsoft.com, udp: true}
   - {name: 0|🇺🇸50 |  4.0MB/s, server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net, port: 5229, type: vmess, uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 11|🇭🇰 香港7|@ripaojiedian, server: 183.236.51.38, port: 43121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 12|香港7|@ripaojiedian, server: 183.236.51.38, port: 43121, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 V2CROSS.COM, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
-  - {name: 乌克兰 V2CROSS.COM, server: 2.58.87.221, port: 16899, type: ss, cipher: aes-128-gcm, password: Yc2CtrIz8L, udp: true}
   - {name: 瑞典 V2CROSS.COM, server: 151.236.206.42, port: 39649, type: ss, cipher: chacha20-ietf-poly1305, password: zCbrIk12Qlg9YcERdnzjoh, udp: true}
   - {name: 沙特阿拉伯 Arabic Computer System Co., server: 85.208.139.31, port: 42037, type: ss, cipher: chacha20-ietf-poly1305, password: q7jwtcA0MmyYi0JddUgXXj, udp: true}
   - {name: 中国 - 香港 - CTG Server Ltd. - 12, server: 120.232.153.40, port: 42892, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -57,9 +50,7 @@ proxies:
   - {name: 2|🇸🇬7 |  6.3MB/s, server: cn07.closeai.one, port: 8207, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20581-passw0rd.download.microsoft.com, udp: true}
   - {name: 2|🇭🇰17 |  6.0MB/s, server: cn01.closeai.one, port: 8101, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20581-passw0rd.download.microsoft.com, udp: true}
   - {name: 2|🇯🇵10 |  5.9MB/s, server: cn14.closeai.one, port: 8413, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20581-passw0rd.download.microsoft.com, udp: true}
-  - {name: 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8765, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com}, udp: true}
-  - {name: 12|🇺🇸 美国4|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8775, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com}, udp: true}
-proxy-groups:
+ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
