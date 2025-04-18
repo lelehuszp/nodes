@@ -24,8 +24,6 @@ proxies:
   - {name: 11|🇺🇸 美国3|@ripaojiedian, server: 120.232.17.9, port: 45269, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
   - {name: 12|美国3|@ripaojiedian, server: 120.232.17.9, port: 45269, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
   - {name: 11|🇺🇸 美国3|@ripaojiedian 2, server: 120.232.17.9, port: 45269, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国18 | ⬇️ 1.4MB/s, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国18 | ⬇️ 1.4MB/s 2, server: 120.234.102.229, port: 43674, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 香港5|@ripaojiedian 2, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 香港5|@ripaojiedian 2 2, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: 12|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.38, port: 41291, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
